@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="admt">45dp</dimen>
+    <dimen name="odp">0dp</dimen>
+    <dimen name="circularimgwidth">100dp</dimen>
+    <dimen name="circularimgheight">100dp</dimen>
+    <dimen name="civ_width_border">3dp</dimen>
+    <dimen name="img_width">0dp</dimen>
+    <dimen name="tv_mtop">6dp</dimen>
+    <dimen name="tv_size">20sp</dimen>
+    <dimen name="mainimg_width">200dp</dimen>
+    <dimen name="mainimg_height">200dp</dimen>
+    <dimen name="text_ts">25sp</dimen>
+    <dimen name="iconsize">20dp</dimen>
+    <dimen name="layout_height">45dp</dimen>
+    <dimen name="likebutton_ml">192dp</dimen>
+    <dimen name="likebutton_mt">3dp</dimen>
+    <dimen name="likebutton_width">45dp</dimen>
+    <dimen name="linear_length">80dp</dimen>
+    <dimen name="linear_ml">5dp</dimen>
+    <dimen name="title_ts">27sp</dimen>
+    <dimen name="tv_zerowidth">0dp</dimen>
+    <dimen name="margin_top">10dp</dimen>
+    <dimen name="mtop">300dp</dimen>
+    <dimen name="marginwidth">300dp</dimen>
+    <dimen name="lmargin">10dp</dimen>
+    <dimen name="text_tv">21sp</dimen>
+    <dimen name="mt_linear">5dp</dimen>
+    <dimen name="bottommargin">10dp</dimen>
+    <dimen name="img_height">175dp</dimen>
+    <dimen name="view_height">2dp</dimen>
+
+    <!--
+Refer to App Widget Documentation for margin information
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <dimen name="widget_margin">8dp</dimen>
+    <dimen name="dp1">50dp</dimen>
+    <dimen name="dp2">150dp</dimen>
+    <dimen name="dp3">150dp</dimen>
+    <dimen name="sp1">25sp</dimen>
+    <dimen name="sp2">25sp</dimen>
+    <dimen name="dp4">10dp</dimen>
+    <dimen name="sp3">25sp</dimen>
+    <dimen name="dp56">50dp</dimen>
+    <dimen name="dp9">150dp</dimen>
+    <dimen name="dp6">150dp</dimen>
+    <dimen name="ssd">25sp</dimen>
+    <dimen name="dsdwa">25sp</dimen>
+    <dimen name="dd">25sp</dimen>
+    <dimen name="effr">25sp</dimen>
+    <dimen name="dp70">10dp</dimen>
+    <dimen name="sp5">25sp</dimen>
+    <dimen name="swwsdw">80dp</dimen>
+    <dimen name="dp90">10dp</dimen>
+    <dimen name="sp7">25sp</dimen>
+    <dimen name="dp89">10dp</dimen>
+    <dimen name="sp8667">25sp</dimen>
+    <dimen name="dfj">80dp</dimen>
+    <dimen name="wdef">50dp</dimen>
+    <dimen name="dp78">150dp</dimen>
+    <dimen name="dp56rr">150dp</dimen>
+    <dimen name="s">25sp</dimen>
+    <dimen name="sp56">25sp</dimen>
+    <dimen name="sp903">25sp</dimen>
+    <dimen name="sp89">25sp</dimen>
+    <dimen name="sw3">25sp</dimen>
+    <dimen name="dp57543">10dp</dimen>
+    <dimen name="spfe848">25sp</dimen>
+    <dimen name="dpdfffg">80dp</dimen>
+    <dimen name="dpasdfg">8dp</dimen>
+    <dimen name="spqwsdf">24sp</dimen>
+    <dimen name="SDF">5dp</dimen>
+    <dimen name="DP2345">6dp</dimen>
+    <dimen name="DP67">20sp</dimen>
+    <dimen name="bheight">50dp</dimen>
+    <dimen name="tsi">20sp</dimen>
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/c5"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+<ImageView
+    android:layout_marginTop="@dimen/dp56"
+    android:layout_width="@dimen/dp9"
+    android:layout_height="@dimen/dp6"
+    android:contentDescription="@string/ddd"
+    android:src="@drawable/ic_account_circle_black_24dp"
+    android:layout_gravity="center"/>
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/user_sign_in"
+      android:textSize="@dimen/ssd"
+      android:gravity="center"
+      android:textColor="@color/colorAccent"
+      android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/user_email_id"
+        android:textSize="@dimen/dsdwa"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"/>
+   <EditText
+       android:id="@+id/et1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="@string/enter_email_id"
+       android:textColorHint="@color/colorPrimary"
+       android:textStyle="bold"
+       android:textSize="@dimen/dd"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wadef"
+        android:textSize="@dimen/effr"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/et2"
+        android:inputType="numberPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/wad"
+        android:textColorHint="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="25sp"/>
+    <Button
+        android:layout_margin="@dimen/dp70"
+        android:textSize="@dimen/sp5"
+        android:textColor="@color/c36"
+        android:background="@color/c30"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bheight"
+        android:onClick="signin"
+        android:text="@string/w"/>
+    <Button
+        android:layout_margin="@dimen/dp90"
+        android:textSize="@dimen/sp7"
+        android:textColor="@color/c6"
+        android:background="@color/c8"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bheight"
+        android:onClick="register"
+        android:text="@string/r"/>
+    <Button
+        android:layout_margin="@dimen/dp89"
+        android:textSize="@dimen/sp8667"
+        android:textColor="@color/shds"
+        android:background="@color/dwjde"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bheight"
+        android:onClick="fotgot"
+        android:text="@string/forgot_password"/>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "265036828328",
+    "firebase_url": "https://searchjob-980a2.firebaseio.com",
+    "project_id": "searchjob-980a2",
+    "storage_bucket": "searchjob-980a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265036828328:android:c5d5f4fa11d1c298",
+        "android_client_info": {
+          "package_name": "com.example.searchjob"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "265036828328-prqiitgu0nef9n9oaajdqjh1lvnf1p6m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNJ8v-aaxPdY7FkDUBGJEqg88bx6XDhBg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "265036828328-prqiitgu0nef9n9oaajdqjh1lvnf1p6m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FotgotActivity">
+
+    <ImageView
+        android:contentDescription="@string/imag1"
+        android:layout_marginTop="@dimen/dp1"
+        android:layout_width="@dimen/dp2"
+        android:layout_height="@dimen/dp3"
+        android:src="@drawable/ic_lock_black_24dp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ggsf"
+        android:textSize="@dimen/sp1"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/forgotemail"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_registered_email"
+        android:textColorHint="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="@dimen/sp2"/>
+    <Button
+        android:layout_margin="@dimen/dp4"
+        android:textSize="@dimen/sp3"
+        android:textColor="@color/c1"
+        android:background="@color/c3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bheight"
+        android:onClick="fotgot"
+        android:text="@string/send"/>
+</LinearLayout>
+</ScrollView>

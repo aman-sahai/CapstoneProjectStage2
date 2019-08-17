@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/wddbg"
+    tools:context=".RegiterActivity"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_marginTop="@dimen/wdef"
+        android:layout_width="@dimen/dp78"
+        android:layout_height="@dimen/dp56rr"
+        android:contentDescription="@string/sssss"
+        android:src="@drawable/ic_account_circle_black_24dp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/user_register"
+        android:textSize="@dimen/s"
+        android:gravity="center"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/user_email_id"
+        android:textSize="@dimen/sp56"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_email_id"
+        android:textColorHint="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="@dimen/sp903"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wdef"
+        android:textSize="@dimen/sp89"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/pwd"
+        android:inputType="numberPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/qsd"
+        android:textColorHint="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="@dimen/sw3"/>
+    <Button
+        android:layout_margin="@dimen/dp57543"
+        android:textSize="@dimen/spfe848"
+        android:textColor="@color/cccc"
+        android:background="@color/wdefg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dpdfffg"
+        android:onClick="Register"
+        android:text="@string/r"/>
+
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_marginTop="@dimen/admt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/app_id_unit">
+    </com.google.android.gms.ads.AdView>
+
+
+</LinearLayout>
+</ScrollView>
